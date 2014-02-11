@@ -44,11 +44,11 @@
 		127CAF0C1885628000585537 /* HelloWorld-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloWorld-Prefix.pch"; sourceTree = "<group>"; };
 		127CAF0D1885628000585537 /* HelloWordAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWordAppDelegate.h; sourceTree = "<group>"; };
 		127CAF0E1885628000585537 /* HelloWordAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWordAppDelegate.m; sourceTree = "<group>"; };
-		127CAF111885628000585537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		127CAF111885628000585537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		127CAF131885628000585537 /* HelloWordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWordViewController.h; sourceTree = "<group>"; };
 		127CAF141885628000585537 /* HelloWordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWordViewController.m; sourceTree = "<group>"; };
-		127CAF161885628000585537 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		127CAF1C1885628000585537 /* HelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		127CAF161885628000585537 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images.xcassets; sourceTree = "<group>"; };
+		127CAF1C1885628000585537 /* HelloWorldTests */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = HelloWorldTests; sourceTree = BUILT_PRODUCTS_DIR; };
 		127CAF1D1885628000585537 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		127CAF251885628000585537 /* HelloWorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloWorldTests-Info.plist"; sourceTree = "<group>"; };
 		127CAF271885628000585537 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -93,7 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				127CAEFB1885628000585537 /* HelloWorld.app */,
-				127CAF1C1885628000585537 /* HelloWorldTests.xctest */,
+				127CAF1C1885628000585537 /* HelloWorldTests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -187,7 +187,7 @@
 			);
 			name = HelloWorldTests;
 			productName = HelloWorldTests;
-			productReference = 127CAF1C1885628000585537 /* HelloWorldTests.xctest */;
+			productReference = 127CAF1C1885628000585537 /* HelloWorldTests */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -463,6 +463,7 @@
 				127CAF2F1885628000585537 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		127CAF301885628000585537 /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +472,7 @@
 				127CAF321885628000585537 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
